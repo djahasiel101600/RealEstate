@@ -1,0 +1,40 @@
+import { ImageCard } from "@/shared/ui";
+import BadgeScroll from "./badgeScroll";
+
+const Lookbook = () => {
+  return (
+    <div className="px-4">
+      <div className="flex flex-col justify-center items-center py-20 gap-4">
+        <hr className="border-[#808080] border-b-1 w-[35%]" />
+        <h3 className="font-tiro text-[48px]">LOOKBOOK</h3>
+        <p className="text-center text-[24px]">
+          A visual journey through Pahrump's finest homes - from <br /> scenic
+          desert horizons to elegant interiors.
+        </p>
+      </div>
+      <div className="grid grid-flow-col grid-cols-14 grid-rows-2xt-white bg-white gap-2">
+        <div className="col-span-3 bg-amber-500 overflow-hidden">
+          <ImageCard />
+        </div>
+        <div className="col-span-3 bg-amber-500 overflow-hidden">
+          <ImageCard />
+        </div>
+        <div className="col-span-6 row-span-2 bg-amber-500 overflow-hidden">
+          <ImageCard />
+        </div>
+        <div className="col-span-6 row-span-1 bg-[#878787] overflow-hidden">
+          {/* <ImageCard /> */}
+        </div>
+        <div className="col-span-3 row-span-1 bg-amber-500 overflow-hidden">
+          <ImageCard />
+        </div>
+        <div className="col-span-3 row-span-1 bg-amber-500 overflow-hidden">
+          <ImageCard />
+        </div>
+      </div>
+      <BadgeScroll />
+    </div>
+  );
+};
+
+export default Lookbook;

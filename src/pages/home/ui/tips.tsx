@@ -9,7 +9,7 @@ const Tips = () => {
       <h1 className="font-tiro text-[80px] text-white text-center">
         GET IT SOLD
       </h1>
-      <div className="grid grid-flow-col grid-cols-2 grid-rows-2 gap-2 h-[80vh]">
+      <div className="grid grid-flow-col grid-cols-2 grid-rows-2 h-[80vh]">
         <div className="w-full h-full bg-amber-500">
           <ImageCardBg
             propertyImg={propImg1}

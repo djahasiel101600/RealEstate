@@ -3,6 +3,7 @@ import SearchListing from "./searchListing";
 import prop1 from "@/assets/property1.jpg";
 import prop2 from "@/assets/property2.jpg";
 import prop3 from "@/assets/property3.jpg";
+import prop4 from "@/assets/property4.jpg";
 
 const Listing = () => {
   return (
@@ -13,6 +14,7 @@ const Listing = () => {
           <ListingCard img={prop1} />
           <ListingCard img={prop2} />
           <ListingCard img={prop3} />
+          <ListingCard img={prop4} />
         </div>
       </div>
     </div>

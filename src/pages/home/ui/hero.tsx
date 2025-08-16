@@ -14,8 +14,8 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="col-span-2 font-tiro z-50 "
           >
-            <h1 className="text-[90pt] leading-tight">MARCI METZGER HOMES</h1>
-            <div className="flex flex-row mt-4 text-[15pt]">
+            <h1 className="text-[90px] leading-tight">MARCI METZGER HOMES</h1>
+            <div className="flex flex-row mt-4 text-[15px]">
               <div className="py-2 px-4 bg-[#A1907A]">Real Estate Veteran</div>
               <div className="py-2 px-4 bg-[#656565]">Broker & Owner</div>
               <div className="py-2 px-4 bg-[#050409]">Top Local Agent</div>
@@ -27,10 +27,10 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
             className="mt-20 flex flex-col gap-4 italic"
           >
-            <h1 className="text-[24pt] font-tiro">
+            <h1 className="text-[24px] font-tiro">
               YOUR TRUSTED PAHRUMP REALTOR
             </h1>
-            <p className="text-[16pt] me-18">
+            <p className="text-[16px] me-18">
               Welcome to Marci Metzger, with nearly 30 years of experience,
               Marci and The Ridge Realty Group deliver expert market insight,
               personalized service, and smart strategies to sell your home or

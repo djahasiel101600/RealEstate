@@ -74,7 +74,7 @@ const Footer = () => {
           <div className="col-span-2">
             <div className="flex gap-24">
               <ul className="flex flex-col gap-1 text-[18px] text-[#4e4e4e]">
-                <h3 className="font-medium text-[20px] mb-2">Quick Links</h3>
+                <h3 className="font-medium text-[20px] mb-2">QUIC LINKS</h3>
                 <li className="border-b-0  hover:border-b-1 w-fit">Listing</li>
                 <li className="border-b-0  hover:border-b-1 w-fit">
                   Let's Move
@@ -82,7 +82,7 @@ const Footer = () => {
                 <li className="border-b-0  hover:border-b-1 w-fit">About Us</li>
               </ul>
               <ul className="flex flex-col gap-1 text-[18px] text-[#4e4e4e]">
-                <h3 className="font-medium text-[20px] mb-2">More</h3>
+                <h3 className="font-medium text-[20px] mb-2">MORE</h3>
                 <li className="border-b-0  hover:border-b-1 w-fit">
                   Open Today
                 </li>
@@ -91,7 +91,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul className="flex flex-col gap-1 text-[18px] text-[#4e4e4e]">
-                <h3 className="font-medium text-[20px] mb-2">Help</h3>
+                <h3 className="font-medium text-[20px] mb-2">HELP</h3>
                 <li className="border-b-0  hover:border-b-1 w-fit">FAQ</li>
                 <li className="border-b-0  hover:border-b-1 w-fit">Contacts</li>
                 <li className="border-b-0  hover:border-b-1 w-fit">

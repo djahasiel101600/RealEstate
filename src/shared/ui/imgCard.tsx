@@ -1,11 +1,14 @@
-import propertyImg from "@/assets/hero.webp";
 import { twMerge } from "tailwind-merge";
 
-const ImageCard = ({ className }: { className?: string }) => {
+interface Props {
+  className?: string;
+  img: string;
+}
+const ImageCard = ({ className, img }: Props) => {
   return (
     <div className="relative w-full h-full flex flex-col justify-center items-center">
       <img
-        src={propertyImg}
+        src={img}
         alt=""
         className={twMerge(["relative object-cover h-full", className])}
       />

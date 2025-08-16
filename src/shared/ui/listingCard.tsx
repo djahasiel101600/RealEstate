@@ -1,7 +1,9 @@
 import { Button } from "./button";
-import img from "@/assets/hero.webp";
+interface Props {
+  img: string;
+}
 
-const ListingCard = () => {
+const ListingCard = ({ img }: Props) => {
   return (
     <div className="relative w-[430px] h-[524px] bg-white border-1 overflow-hidden rounded-md">
       <Button className="absolute m-4 text-[16pt] z-20">For Sale</Button>

@@ -22,8 +22,10 @@ const Lookbook = () => {
         <div className="col-span-6 row-span-2 bg-amber-500 overflow-hidden">
           <ImageCard />
         </div>
-        <div className="col-span-6 row-span-1 bg-[#878787] overflow-hidden">
-          {/* <ImageCard /> */}
+        <div className="col-span-6 row-span-1 bg-[#000000] overflow-hidden">
+          <div className="flex justify-center items-center h-full text-white font-tiro text-[24px] border-b-2 hover:underline">
+            View More
+          </div>
         </div>
         <div className="col-span-3 row-span-1 bg-amber-500 overflow-hidden">
           <ImageCard />
